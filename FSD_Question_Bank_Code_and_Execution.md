@@ -11,7 +11,12 @@ Based on **FSD QB.pdf**. Each question includes the file name(s), complete code,
 - For Express questions, create a separate backend folder and run `npm init -y`, then install the packages specified for that question.
 - For MongoDB shell commands, open `mongosh` while MongoDB is running.
 - Where multiple questions use `src/App.jsx`, use the code for the question you are practising; each is a separate practical and replaces the previous `App.jsx`.
-
+winget install --id MongoDB.Server --exact
+net start MongoDB
+mongosh
+npm install express
+npm create vite@latest my-practical -- --template react
+winget install OpenJS.NodeJS.LTS
 ---
 
 # Q.1 — A. JavaScript Programs
