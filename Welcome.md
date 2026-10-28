@@ -1,16 +1,6 @@
-# Full Stack Development Question Bank — Code and Execution Commands
-
-Based on **FSD QB.pdf**. Each question includes the file name(s), complete code, and execution commands. Replace sample names, roll numbers, and database connection strings with your own values where necessary.
 
 ## General setup
 
-- Install Node.js LTS and verify with `node -v` and `npm -v`.
-- JavaScript files are run with `node filename.js`.
-- React questions use Vite. Create a project with `npm create vite@latest fsd-react-practicals -- --template react`, then `cd fsd-react-practicals` and `npm install`.
-- For React Router and Axios questions, install `npm install react-router-dom axios`.
-- For Express questions, create a separate backend folder and run `npm init -y`, then install the packages specified for that question.
-- For MongoDB shell commands, open `mongosh` while MongoDB is running.
-- Where multiple questions use `src/App.jsx`, use the code for the question you are practising; each is a separate practical and replaces the previous `App.jsx`.
 winget install --id MongoDB.Server --exact
 net start MongoDB
 mongosh
